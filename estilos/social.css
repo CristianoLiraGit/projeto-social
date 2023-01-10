@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar { /*Esconder a barra de rolagem lateral*/
+    width: 0px;
+    height: 0px;
+}
+
+img {
+    width: 100vw; /*A largura vai ser 100% da largura do navegador*/
+}
+
+a {
+    display: block; /*Display block é para colocar o ACESSE embaixo, um bloco (caixa)*/
+    background-color: darkred;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    margin-top: -3px; /*Estava com uma brecha acima do botão acesse*/
+}
+
+a:hover {
+    background-color: red;
+}
